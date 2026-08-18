@@ -37,3 +37,17 @@ A Flask-based web application that analyzes the emotions expressed in a video us
 ---
 
 ## 📂 Project Structure
+Video-Sentiment-Analysis/
+│
+├── app.py # Main Flask application
+├── sentiment_analyzer.py # Video emotion analysis logic
+├── mailer.py # Email sending functionality
+├── config.py # Configuration settings
+│
+├── uploads/ # Temporary uploaded videos
+├── output/ # Generated output files
+│
+├── templates/
+│ └── index.html # Upload webpage
+│
+└── README.md
